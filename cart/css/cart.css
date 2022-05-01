@@ -1,0 +1,87 @@
+/*-- single-page --*/
+.single-right-left h3 {
+    font-size: 25px;
+    color: #000;
+    margin-bottom: 13px;
+}
+.single-right-left p {
+    margin: 10px 0 15px;
+}
+.single-right-left p label{
+    color: #000;
+}
+.single-right-left del {
+    margin: 0 9px 0 13px;
+    font-size: 15px;
+    color: #999;
+    font-weight: 300;
+}
+/*-- Ratings --*/
+.rating1 {
+    direction:ltr;
+}
+.starRating:not(old) {
+    display: inline-block;
+    height: 18px;
+    width:100px;
+    overflow: hidden;
+}
+
+.starRating:not(old) > input{
+  margin-right :-26%;
+  opacity      : 0;
+}
+
+.starRating:not(old) > label {
+    float: right;
+    background: url(../images/star1.png);
+    background-size: contain;
+    margin-right: 2px;
+}
+
+.starRating:not(old) > label:before{
+  content         : '';
+  display         : block;
+  width           : 18px;
+  height          : 18px;
+  background      : url(../images/star22.png);
+  background-size : contain;
+  opacity         : 0;
+  transition      : opacity 0.2s linear;
+}
+
+.starRating:not(old) > label:hover:before,
+.starRating:not(old) > label:hover ~ label:before,
+.starRating:not(:hover) > :checked ~ label:before{
+  opacity : 1;
+}
+/*-- //Ratings --*/
+.single-infoagile ul li {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.product-single-w3l {
+    border-top: 1px solid #1accfd;
+}
+.product-single-w3l p i {
+    color: #1accfd;
+    margin-right: 11px;
+    font-size: 24px;
+}
+.product-single-w3l p {
+    color: #000;
+    margin: 15px 0;
+    letter-spacing: 0.5px;
+}
+.product-single-w3l ul li {
+    list-style: inside;
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 1.7;
+}
+.occasion-cart .snipcart-details {
+    width: 38%;
+    margin: 0;
+}
+/*-- //single-page --*/
