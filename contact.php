@@ -145,8 +145,8 @@ if( isset($_POST['submit'])  ) {
                             <div class="cont-add">
                                 <h4>Email:</h4>
                                 <!-- unique store -->
-                                <a href="theuniquestore@gmail.com">
-                                    <p class="contact-text-sub"> theuniquestore@gmail.com</p>
+                                <a href="mailto:thestoretheunique@gmail.com">
+                                    <p class="contact-text-sub"> thestoretheunique@gmail.com</p>
                                 </a>
                             </div>
                             <div class="cont-add">
@@ -167,7 +167,7 @@ if( isset($_POST['submit'])  ) {
                 </div>
             </div>
             <!-- map -->
-            <div class="mapouter"><div class="gmap_canvas"><iframe width="1250" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=10,%20Umiya%20Shakti%20Society,%20Kathe%20Lane,%20%20Above%20COSMOS%20Bank,%20Bankar%20Chowk,%20Dwarka%20Nashik-%20422011.%20Maharashtra,%20India&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://soap2day-to.com">soap2day</a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:1250px;}</style><a href="https://www.embedgooglemap.net">map for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:1250px;}</style></div></div>
+           <!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="1250" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=10,%20Umiya%20Shakti%20Society,%20Kathe%20Lane,%20%20Above%20COSMOS%20Bank,%20Bankar%20Chowk,%20Dwarka%20Nashik-%20422011.%20Maharashtra,%20India&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://soap2day-to.com">soap2day</a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:1250px;}</style><a href="https://www.embedgooglemap.net">map for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:1250px;}</style></div></div> -->
             <!-- //map -->
         </div>
     </section>

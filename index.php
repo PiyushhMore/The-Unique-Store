@@ -1,6 +1,6 @@
 <?php 
 session_start();
-//include 'db.php';
+include 'db.php';
 ?>
 
 <!doctype html>
@@ -280,7 +280,7 @@ margin-top:-17%;
                 <div class="col-lg-3 col-md-6 px-lg-2">
                     <div class="s-block">
                         <a href="viewall.php" class="d-block">
-                            <img src="assets/images/<?php echo $row['image1']; ?>" alt="" class="img-fluid img-responsive" />
+                            <img src="erp/admin/images/<?php echo $row['image1']; ?>" alt="" class="img-fluid img-responsive" />
                             <div class="p-3">
                              <center><h3 class="mb-2" style="font-size:25px;"><?php echo $row['pname']; ?></h3>
                                 <p>&#8377;<?php echo $row['price'];?></p>
@@ -435,13 +435,13 @@ margin-top:-17%;
                         <h3 class="title-main">Subscribe To us !!!</h3>
                     </div>
                     <div class="form-right-inf mt-5">
-                        <form action="#" method="post" class="signin-form">
+                        <form action="subscribe.php" method="post" class="signin-form">
                             <div class="forms-gds">
                                 <div class="form-input">
-                                    <input type="email" name="" placeholder="Enter your email address" required />
+                                    <input type="email" name="email" placeholder="Enter your email address" required />
                                 </div>
                                 <div class="btn btn-style btn-warning button-eff-news" style="border-radius: 25px; height: 55px;  width: 150px; text-align:center; font-size:25px; ">
-                  <button class="btn">Subscribe</button>
+                  <button class="btn" type="submit" name="subscribe">Subscribe</button>
                 </div>
                             </div>
                         </form>

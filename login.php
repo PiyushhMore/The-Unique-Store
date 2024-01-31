@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ERROR);
+
 session_start();
 include 'db.php';
 
@@ -126,21 +128,21 @@ Author URL: http://w3layouts.com
                             </div>
                             <div class="cont-add">
                                 <h4>Email:</h4>
-                                <a href="info@anantthelimitlessart.com">
-                                    <p class="contact-text-sub">– theuniquestore@gmail.com</p>
+                                <a href="mailto:thestoretheunique@gmail.com">
+                                    <p class="contact-text-sub">– thestoretheunique@gmail.com</p>
                                 </a>
                             </div>
                             <div class="cont-add">
                                 <h4>Phone:</h4>
-                                <a href="mobile:7573894488">
+                                <a href="mobile:7020839958">
                                     <!-- Unique store -->
                                     <p class="contact-text-sub"> +91-7020839958</p>
                                 </a>
                             </div>
                             <div class="social-icons-con">
                                 <!-- unique store -->
-                                <a href="https://www.facebook.com/Anant-The-Limitless-Art/" ><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                                <a href="https://www.instagram.com/anant_thelimitlessart/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
+                                <a href="https://www.facebook.com/profile.php?id=100081175116132" ><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                                <a href="https://www.instagram.com/theuniquethestore/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
                               
                             </div>
                         </div>

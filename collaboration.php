@@ -92,8 +92,8 @@
                             </div>
                             <div class="cont-add">
                                 <h4>Email:</h4>
-                                <a href="theuniquestore@gmail.com">
-                                    <p class="contact-text-sub">theuniquestore@gmail.com</p>
+                                <a href="mailto:thstoretheunique@gmail.com">
+                                    <p class="contact-text-sub">thstoretheunique@gmail.com</p>
                                 </a>
                             </div>
                             <div class="cont-add">
@@ -103,8 +103,8 @@
                                 </a>
                             </div>
                             <div class="social-icons-con">
-                                <a href="https://www.facebook.com/Anant-The-Limitless-Art/" ><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                                <a href="https://www.instagram.com/anant_thelimitlessart/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
+                                <a href="https://www.facebook.com/profile.php?id=100081175116132" ><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                                <a href="https://www.instagram.com/theuniquethestore/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
                                
                             </div>
                         </div>

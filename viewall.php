@@ -51,7 +51,7 @@ include 'db.php';
                 <div class="col-lg-3 col-md-6 px-lg-2 mt-md-0 mt-4 grid-4-col">
                     <div class="s-block">
                         <a href="product.php?pid=<?php echo $row['pid']; ?>" class="d-block">
-                            <img src="assets/images/<?php echo $row['image1']; ?>" alt="" class="img-fluid img-responsive" />
+                            <img src="erp/admin/images/<?php echo $row['image1']; ?>" alt="" class="img-fluid img-responsive" />
                             <div class="p-3">
                               <center>  <h3 class="mb-2"  style="font-size:25px;"><?php echo $row['pname']; ?></h3>
 							  <p>&#8377;<?php echo $row['price'];?></p>

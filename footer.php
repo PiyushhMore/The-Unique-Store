@@ -7,7 +7,7 @@
           <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
             <div class="footer-logo mb-3">
               <a class="navbar-brand" href="index.php">
-        <img src="assets/images/logo.png"  title="Your logo" style="height:100px;">
+        <img src="assets/images/unq4.png"  title="Your logo" style="height:100px;">
     </a>
             </div><br><br><br><br><br><br>
             <p>Your home is just like a storyboard which you consciously curate by putting together the stories that each and every décor piece has to offer! What  story does your house tell ?</p>
@@ -47,11 +47,11 @@
 							<li>
 								<span class="fa fa-envelope" style="color:#E4B333;"></span>
 							<!-- unique store -->
-                <a href="#">theuniquestore@gmail.com</a>
+                <a href="mailto:thestoretheunique@gmail.com">thestoretheunique@gmail.com</a>
 							</li>
-                            <a href="https://www.facebook.com/Anant-The-Limitless-Art/" class="facebook">
+              <a href="https://www.facebook.com/profile.php?id=100081175116132" class="facebook">
 							<span class="fa fa-facebook fa-lg" aria-hidden="true"></span></a>&nbsp;&nbsp;
-							<a href="https://www.instagram.com/anant_thelimitlessart/" class="instagram">
+							<a href="https://www.instagram.com/theuniquethestore/" class="instagram">
 							<span class="fa fa-instagram fa-lg" aria-hidden="true"></span></a>&nbsp;&nbsp;
                              </ul>
                     </div>
@@ -72,8 +72,8 @@
         <div class="col-lg-4 footer-list-29 text-right">
           <div class="main-social-footer-29">
             <!-- unique store -->
-            <a href="https://www.facebook.com/Anant-The-Limitless-Art/"" class="facebook"><span class="fa fa-facebook"  ></span></a>
-            <a href="https://www.instagram.com/anant_thelimitlessart/" " class="instagram"><span class="fa fa-instagram"></span></a>
+            <a href="https://www.facebook.com/profile.php?id=100081175116132"" class="facebook"><span class="fa fa-facebook"  ></span></a>
+            <a href="https://www.instagram.com/theuniquethestore/" " class="instagram"><span class="fa fa-instagram"></span></a>
             
 
           </div>
@@ -87,8 +87,14 @@
       &#10548;
     </button>
 	
+	
 	<!--Start of Tawk.to Script-->
-<script type="text/javascript">
+	
+	
+	
+	
+	<!--Start of Tawk.to Script-->
+<!--<script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -98,7 +104,7 @@ s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
-</script>
+</script>-->
 <!--End of Tawk.to Script-->
 	
     <script>

@@ -1,6 +1,7 @@
 <?php
-
 namespace Razorpay\Api;
+error_reporting(E_ERROR);
+// namespace Razorpay\Api;
 
 use ArrayAccess;
 use ArrayIterator;

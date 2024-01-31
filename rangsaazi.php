@@ -8,7 +8,7 @@ session_start();
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Anant-The Limitless Art</title>
+  <title>The Unique Store</title>
   <!-- google-fonts -->
   <link
     href="//fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap"
@@ -49,7 +49,7 @@ session_start();
 					?>
                 <div class="col-lg-3 col-md-6 px-lg-2 mt-md-0 mt-4 grid-4-col">
                     <div class="s-block">
-                        <a href="" class="d-block">
+                    <a href="product.php?pid=<?php echo $row['pid'];?>" class="d-block">                            <img src="assets/images/<?php echo $row['image1']; ?>" alt="" class="img-fluid img-responsive" />
                             <img src="assets/images/<?php echo $row['image1']; ?>" alt="" class="img-fluid img-responsive" />
                             <div class="p-3">
                                 <h3 class="mb-2"><?php echo $row['pname']; ?></h3>

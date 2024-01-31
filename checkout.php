@@ -11,7 +11,7 @@ include 'db.php';
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Anant-The Limitless Art</title>
+    <title>The Unique Store</title>
     <!-- google-fonts -->
     <link
         href="//fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap"
@@ -81,25 +81,24 @@ include 'db.php';
                         <div class="cont-subs">
                             <div class="cont-add">
                                 <h4>Address:</h4>
-                                <p class="contact-text-sub">10, Umiya Shakti Society, Kathe Lane,Above COSMOS Bank, Bankar Chowk, Dwarka ,Nashik- 422011. Maharashtra, India</p>
+                                <p class="contact-text-sub">Shop no. 103, Meenatai Thakre Market , Savta Nagar ,Nashik- 422008. Maharashtra, India</p>
                             </div>
                             <div class="cont-add">
                                 <h4>Email:</h4>
-                                <a href="info@anantthelimitlessart.com">
-                                    <p class="contact-text-sub">– info@anantthelimitlessart.com</p>
+                                <a href="mailto:thestoretheunique@gmail.com">
+                                    <p class="contact-text-sub">– thestoretheunique@gmail.com</p>
                                 </a>
                             </div>
                             <div class="cont-add">
                                 <h4>Phone:</h4>
-                                <a href="mobile:7573894488">
-                                    <p class="contact-text-sub"> +91-7573894488</p>
+                                <a href="mobile:7020839958">
+                                    <p class="contact-text-sub"> +91-7020839958</p>
                                 </a>
                             </div>
                             <div class="social-icons-con">
-                                <a href="https://www.facebook.com/Anant-The-Limitless-Art/" ><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                                <a href="https://www.instagram.com/anant_thelimitlessart/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
-                                <a href="https://www.linkedin.com/in/prajakta-joshi-02760b168/"><span class="fa fa-linkedin"
-                                        aria-hidden="true"></span></a>
+                                <a href="https://www.facebook.com/profile.php?id=100081175116132" ><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                                <a href="https://www.instagram.com/theuniquethestore/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
+                               
                             </div>
                         </div>
                     </div>

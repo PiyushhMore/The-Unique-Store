@@ -12,7 +12,7 @@ Author URL: http://w3layouts.com
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Anant-The Limitless Art</title>
+  <title>The Unique Store</title>
   <!-- google-fonts -->
   <link
     href="//fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap"

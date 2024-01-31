@@ -1,12 +1,28 @@
 
 <?php
+error_reporting(E_ERROR);
 include 'db.php';
-error_reporting(null);
+
 session_start();
 $uid=$_SESSION['uid'];
 
 ?>
- <h3 class="text-center" style="font-weight:800;">CONFIRM YOUR DETAILS</h3>
+<style>
+    .paycss{
+        background-color:#edce77;
+        border-radius:95px;
+
+    }
+</style>
+<div class="paycss">
+    <br><br>
+
+    <center>    <h1 class="text-center" style="font-weight:800;">_________________________</h1></center>    
+
+      <center>    <h1 class="text-center" style="font-weight:800;">The UniQue Store</h1></center>
+      <center>  <h3 class="text-center" style="font-weight:800;">CONFIRM YOUR DETAILS !!!!</h3></center>
+ <br><br>
+    
                         <table border="1" style="margin-left:500px;">
                             <tbody>
 						<?php
@@ -15,20 +31,20 @@ $uid=$_SESSION['uid'];
 						?>
                             <tr>
 
-                                <th style="padding:5px;">Name</th>
-                                <td style="padding:5px;"><?php echo $rowuser['name'];?></td>
+                                <th style="padding:17px;" >Name</th>
+                                <td style="padding:17px;"><?php echo $rowuser['name'];?></td>
 
                             </tr>
                             <tr>
 
-                                <th style="padding:5px;">Mobile Number</th>
-                                <td style="padding:5px;"><?php echo $rowuser['contact_no'];?></td>
+                                <th style="padding:17px;">Mobile Number</th>
+                                <td style="padding:17px;"><?php echo $rowuser['contact_no'];?></td>
 
                             </tr>
                             <tr>
 					
-                                <th style="padding:5px;">Email</th>
-                                <td style="padding:5px;"><?php echo $rowuser['email'];?></td>
+                                <th style="padding:17px;">Email</th>
+                                <td style="padding:17px;"><?php echo $rowuser['email'];?></td>
 
                             </tr>
                  <?php
@@ -53,13 +69,15 @@ while($row=mysqli_fetch_array($sql)) {
                      
 ?>
                             <tr>
-                                <th style="padding:5px;">Payable Amount</th>
-                                <td style="padding:5px;"><?php echo $total_amount?></td>
+                                <th style="padding:17px;">Payable Amount</th>
+                                <td style="padding:17px;"><?php echo $total_amount?></td>
 
                             </tr>
-                        </table><br><br>
-						
+                        </table><br>
+                        <center>    <h1 class="text-center" style="font-weight:800;">_________________________</h1></center>    
 
+						
+</div>
                     
         </div>
         <!--end of row-->
@@ -111,9 +129,9 @@ if ($displayCurrency !== 'INR')
 $data = [
     "key"               => $keyId,
     "amount"            => $amount,
-    "name"              => "Anant-The Limitless Art",
-    "description"       => "Tron Legacy",
-    "image"             => "https://www.anantthelimitlessart.com/assets/images/logo.png",
+    "name"              => "The Unique Store",
+    "description"       => "Payment Portal",
+    "image"             => "http://localhost:8080/Project/assets/images/unq3.png",
     "prefill"           => [
     "name"              => $rowuser['name'],
     "email"             => $rowuser['email'],
@@ -162,6 +180,7 @@ $json = json_encode($data);
   <!-- Any extra fields to be submitted with the form but not sent to Razorpay -->
   <input type="hidden" name="shopping_order_id" value="3456">
 </form>
+
 
 
 

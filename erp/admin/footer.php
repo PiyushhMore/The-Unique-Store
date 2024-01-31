@@ -1,5 +1,6 @@
   <!-- /.content-wrapper -->
   <footer class="main-footer">
+    <!-- unique store -->
     <strong>Copyright © <?php echo date("Y");?> & All rights reserved by The Unique Store. </strong>
    </footer>
 

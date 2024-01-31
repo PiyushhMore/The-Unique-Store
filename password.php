@@ -1,5 +1,5 @@
 <?php
-error_reporting(null);
+error_reporting(E_ERROR);
 session_start();
 
 include 'db.php';
@@ -28,7 +28,7 @@ if(isset($_POST['submit']))
 		if($email==$email) {
 			
 					require_once "Mail.php";
-	$from = "response@anantthelimitlessart.com";
+	$from = "response@theuniquestore@gmail.com";
 	$to= $tom;
 	$subject="Password";
 	
@@ -136,7 +136,7 @@ if (PEAR::isError($mail)) {
                         <div class="cont-subs">
                             <div class="cont-add">
                                 <h4>Address:</h4>
-                                <p class="contact-text-sub">10, Umiya Shakti Society, Kathe Lane,Above COSMOS Bank, Bankar Chowk, Dwarka ,Nashik- 422011. Maharashtra, India</p>
+                                <p class="contact-text-sub">Shop no. 103, Meenatai Thakre Market , Savta Nagar ,Nashik- 422008. Maharashtra, India</p>
                             </div>
                             <div class="cont-add">
                                 <h4>Email:</h4>

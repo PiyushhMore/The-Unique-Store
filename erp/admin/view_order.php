@@ -100,9 +100,9 @@ include 'db.php';
 		?>
 		
 		<h5 style="margin-left:300px;">Address : <?php echo $row['address'];?><br></h5>
-		<h5 style="margin-left:300px;">Payment mode : <?php echo $row['payment'];?><br></h5>
+		<!--<h5 style="margin-left:300px;">Payment mode : --><?php /*echo $row['payment'];*/?><br></h5>
 		
-		<h3 style="margin-left:300px;">Total Amount : &#8377;<?php echo $row['total_amount'];?><br></h3>
+		<h3 style="margin-left:300px;">Total Amount : [&#8377];<?php echo $row['total_amount'];?><br></h3>
 			
 			     </div>
 			  </div>

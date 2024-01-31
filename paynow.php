@@ -1,5 +1,5 @@
 <?php 
-error_reporting(null);
+error_reporting(E_ERROR);
 session_start();
 $uid=$_SESSION['uid'];
 

@@ -1,6 +1,7 @@
 <?php 
+error_reporting(E_ERROR);
 session_start();
-error_reporting(null);
+
 $uid=$_SESSION['uid'];
 if(empty($uid)) {
 	
@@ -15,7 +16,12 @@ else {
 $date=date("Y-m-d");
 $customize_req=$_POST['requirements'];
 $gifting=$_POST['gifting'];
-$customization=implode(",",$_POST['customization']);
+$custom=$_POST['customization'];
+if($custom == null)
+{
+	$custom = array("");
+}
+$customization=implode(",",$custom);
 $quantity=$_POST['quantity'];
 $pid=$_POST['pid'];
 
@@ -53,13 +59,18 @@ include 'db.php';
 $date=date("Y-m-d");
 $customize_req=$_POST['requirements'];
 $gifting=$_POST['gifting'];
-$customization=implode(",",$_POST['customization']);
+$custom = $_POST['customization'];
+if($custom == null)
+{
+	$custom = array("");
+}
+$customization=implode(",",$custom);
 $quantity=$_POST['quantity'];
 $pid=$_POST['pid'];
 
 include 'db.php';
 
-		$sql=mysqli_query($conn,"select * from temp where pid='$pid' and uid='$uid' and status='0'");
+	$sql=mysqli_query($conn,"select * from temp where pid='$pid' and uid='$uid' and status='0'");
 	$prod=mysqli_num_rows($sql);
 	
 	if($prod > 0) {
@@ -84,6 +95,4 @@ include 'db.php';
 		
 	}
 }	
-}	
-
-?>
+}

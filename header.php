@@ -149,11 +149,11 @@
                 </div>
                 <!-- search button -->
 				<div class="search-right">
-                    <a href="#search" title="search"><span class="fa fa-search" aria-hidden="true"></span></a>
+                    <a href="searchresult.php" title="search"><span class="fa fa-search" aria-hidden="true"></span></a>
                     <!-- search popup -->
                     <div id="search" class="pop-overlay">
                         <div class="popup">
-                            <form action="#search" method="GET" class="search-box">
+                            <form action="searchresult.php" method="GET" class="search-box">
                                 <input type="search" placeholder="Enter Keyword" name="search" required="required"
                                     autofocus="">
                                 <button type="submit" class="btn"><span class="fa fa-search"

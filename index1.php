@@ -183,7 +183,7 @@ margin-top:-20%;
 		
     </section>
 	<div class="para">
-                    <center><h3 class="mb-sm-4 mb-3" id="anant">Anant-The Limitless Art</h3></center>
+                    <center><h3 class="mb-sm-4 mb-3" id="anant">The Unique Store</h3></center>
                    <p style="font-size:18px;">Your home is just like a storyboard which you consciously curate by putting together the stories that each and every décor piece has to offer! What  story does your house tell ?</p>
                 </div><br><br><br>
     <!-- //banner section -->

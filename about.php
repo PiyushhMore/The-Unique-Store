@@ -8,7 +8,7 @@ session_start();
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Anant-The Limitless Art</title>
+  <title>The Unique Store</title>
   <!-- google-fonts -->
   <link
     href="//fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap"
@@ -88,8 +88,8 @@ session_start();
           <div class="col-lg-6 text-6-info mt-lg-0 mt-4">
             <h6>The Brand</h6>
             <h2 class="title-main">About The Brand</span></h2>
-            <p>Anant – The Limitless Art founded by Prajakta Joshi is a home décor and a lifestyle brand. It was born with a vision to celebrate art, craft and design all over the world and in every possible house. Ethnic home décor, lifestyle and gifting is our forte.
-We as a part of this enormous world are very fortunate to experience and enjoy the authenticity and the ethnicity that the whole world provides. Art, Craft and Design are the exact form of expression of the heritage, culture, tradition and lifestyle. The values, morals and principles that we have inherited from our ancestors reflect upon our way of living. Likewise in our homes, every room, space and corner is given the right amount of thought and effort to bring the best out of it. "Anant - The Limitless Art" is one such venture born from an Indian origin but has a long way to go to experience and showcase the other art forms too that many other land provides. As the name suggests it is an endless journey of art, craft, handicraft and design
+            <p>The Unique store founded by Mr. Kunal Vispute is a home décor and a lifestyle brand. It was born with a vision to celebrate art, craft and design all over the world and in every possible house. Ethnic home décor, lifestyle and gifting is our forte.
+We as a part of this enormous world are very fortunate to experience and enjoy the authenticity and the ethnicity that the whole world provides. Art, Craft and Design are the exact form of expression of the heritage, culture, tradition and lifestyle. The values, morals and principles that we have inherited from our ancestors reflect upon our way of living. Likewise in our homes, every room, space and corner is given the right amount of thought and effort to bring the best out of it. "The Unique Store" is one such venture born from an Indian origin but has a long way to go to experience and showcase the other art forms too that many other land provides. As the name suggests it is an endless journey of art, craft, handicraft and design
 </p>
           </div>
         </div>
@@ -120,13 +120,13 @@ We as a part of this enormous world are very fortunate to experience and enjoy t
           </div><br>
 		  <div class="title-heading-w3 text-center mx-auto">
             <h3 class="title-main">Craftmanship </h3>
-            <p class="mt-4 sub-title" style="text-align: justify; text-align-last: left;">                                At Anant, we believe that every single handmade product carries an essence of tons of people who have contributed in making that one product. It somewhere has lived a journey from it’s birth to now serving it’s purpose in your life and this makes each and every handcrafted product a unique one with an unique story altogether. We are here to make a new story everyday! What’s your story of Anant?</p>
+            <p class="mt-4 sub-title" style="text-align: justify; text-align-last: left;">                                At The Unique Store, we believe that every single handmade product carries an essence of tons of people who have contributed in making that one product. It somewhere has lived a journey from it’s birth to now serving it’s purpose in your life and this makes each and every handcrafted product a unique one with an unique story altogether. We are here to make a new story everyday! What’s your story of Anant?</p>
           </div><br>
 		  <div class="title-heading-w3 text-center mx-auto">
             <h3 class="title-main">About the Founder</h3>
             <p class="mt-4 sub-title" style="text-align: justify; 
   text-align-last: left;" >                
-			Prajakta Joshi, the founder of Anant – The Limitless Art , is a Lifestyle and Accessory Designer. She has experienced and learnt a lot many materials and techniques during her graduation period, which gave her a wider eye for anything and everything art, décor and design. After working as a Footwear Designer for almost 3 years, Prajakta started realizing a void in her creativity. A constant debate of “Having learnt so many new things in her professional journey, then why to restrict to just one thing when you can try it all?” gave her a push to start a venture of her own thus giving birth to “Anant – The Limitless Art”. She has a very artistic and cultural approach to her designs which ultimately meets the aim of the brand. With a quirky design language she can turn even a classy thing quirky and a quirky thing even more quirkier.  Prajakta is trying to inculcate a modern influence in the traditional art and culture which will help the artisans to connect with the modern trends and the people to connect with their roots. With her ethnic approach in day to day utilities, her designs stand out aesthetically and makes it 100% functional.</p>
+			Mr. Kunal Vispute, the founder of The Unique Store , is a Lifestyle and Accessory Designer. He has experienced and learnt a lot many materials and techniques during him graduation period, which gave him a wider eye for anything and everything art, décor and design. After working as a Footwear Designer for almost 3 years, Kunal started realizing a void in her creativity. A constant debate of “Having learnt so many new things in her professional journey, then why to restrict to just one thing when you can try it all?” gave him a push to start a venture of his own thus giving birth to “The Unique Store”. He has a very artistic and cultural approach to his designs which ultimately meets the aim of the brand. With a quirky design language he can turn even a classy thing quirky and a quirky thing even more quirkier.  Kunal is trying to inculcate a modern influence in the traditional art and culture which will help the artisans to connect with the modern trends and the people to connect with their roots. With his ethnic approach in day to day utilities, his designs stand out aesthetically and makes it 100% functional.</p>
           </div><br>
 		 
 		  </section>

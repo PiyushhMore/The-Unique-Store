@@ -22,7 +22,7 @@ $count=$row['tid'];
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Anant-The Limitless Art</title>
+    <title>The Unique store</title>
     <!-- google-fonts -->
     <link href="//fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -124,7 +124,7 @@ $count=$row['tid'];
         <div class="container">
             <nav class="navbar navbar-expand-lg stroke px-0">
   <a class="navbar-brand" href="index.php">
-        <img src="assets/images/logo.png"  title="Your logo" style="height:100px;width:270px;margin-top:-3px;border:none;">
+        <img src="assets/images/unq4.png"  title="Your logo" style="height:100px;width:270px;margin-top:-3px;border:none;">
     </a>
 	
                 <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
@@ -241,11 +241,6 @@ $count=$row['tid'];
         <span class='badge badge-warning' id='lblCartCount'><?php echo $count;?>
 		</span></a>
                        
-                </li>&nbsp;&nbsp;&nbsp;&nbsp;
-				
-				<li class="b1">
-                    <a href="#wishlist" title="wishlist"><span class="fa fa-heart" aria-hidden="true" style="font-size:20px;color:black;"></span></a>
-                        
                 </li>&nbsp;&nbsp;&nbsp;&nbsp;
 				
 				

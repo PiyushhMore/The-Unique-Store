@@ -79,7 +79,7 @@ if (PEAR::isError($mail)) {
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Anant-The Limitless Art</title>
+    <title>The Unique Store</title>
     <!-- google-fonts -->
     <link
         href="//fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap"
@@ -166,7 +166,7 @@ if (PEAR::isError($mail)) {
                         <div class="cont-subs">
                             <div class="cont-add">
                                 <h4>Address:</h4>
-                                <p class="contact-text-sub">10, Umiya Shakti Society, Kathe Lane,Above COSMOS Bank, Bankar Chowk, Dwarka ,Nashik- 422011. Maharashtra, India</p>
+                                <p class="contact-text-sub">Shop no. 103, Meenatai Thakre Market , Savta Nagar ,Nashik- 422008. Maharashtra, India</p>
                             </div>
                             <div class="cont-add">
                                 <h4>Email:</h4>

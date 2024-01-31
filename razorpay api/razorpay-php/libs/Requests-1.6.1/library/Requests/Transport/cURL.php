@@ -1,4 +1,5 @@
 <?php
+
 /**
  * cURL HTTP transport
  *
@@ -12,7 +13,8 @@
  * @package Requests
  * @subpackage Transport
  */
-class Requests_Transport_cURL implements Requests_Transport {
+class Requests_Transport_cURL implements Requests_Transport
+{
 	/**
 	 * Raw HTTP data
 	 *
@@ -58,7 +60,8 @@ class Requests_Transport_cURL implements Requests_Transport {
 	/**
 	 * Constructor
 	 */
-	public function __construct() {
+	public function __construct()
+	{
 		$curl = curl_version();
 		$this->version = $curl['version'];
 		$this->fp = curl_init();
@@ -87,7 +90,8 @@ class Requests_Transport_cURL implements Requests_Transport {
 	 * @param array $options Request options, see {@see Requests::response()} for documentation
 	 * @return string Raw HTTP result
 	 */
-	public function request($url, $headers = array(), $data = array(), $options = array()) {
+	public function request($url, $headers = array(), $data = array(), $options = array())
+	{
 		$this->setup_handle($url, $headers, $data, $options);
 
 		$options['hooks']->dispatch('curl.before_send', array(&$this->fp));
@@ -101,7 +105,6 @@ class Requests_Transport_cURL implements Requests_Transport {
 			if ($options['verify'] === false) {
 				curl_setopt($this->fp, CURLOPT_SSL_VERIFYHOST, 0);
 				curl_setopt($this->fp, CURLOPT_SSL_VERIFYPEER, 0);
-
 			} elseif (is_string($options['verify'])) {
 				curl_setopt($this->fp, CURLOPT_CAINFO, $options['verify']);
 			}
@@ -132,7 +135,8 @@ class Requests_Transport_cURL implements Requests_Transport {
 	 * @param array $options Global options
 	 * @return array Array of Requests_Response objects (may contain Requests_Exception or string responses as well)
 	 */
-	public function request_multiple($requests, $options) {
+	public function request_multiple($requests, $options)
+	{
 		$multihandle = curl_multi_init();
 		$subrequests = array();
 		$subhandles = array();
@@ -155,8 +159,7 @@ class Requests_Transport_cURL implements Requests_Transport {
 
 			do {
 				$status = curl_multi_exec($multihandle, $active);
-			}
-			while ($status === CURLM_CALL_MULTI_PERFORM);
+			} while ($status === CURLM_CALL_MULTI_PERFORM);
 
 			$to_process = array();
 
@@ -183,8 +186,7 @@ class Requests_Transport_cURL implements Requests_Transport {
 				}
 				$completed++;
 			}
-		}
-		while ($active || $completed < count($subrequests));
+		} while ($active || $completed < count($subrequests));
 
 		$request['options']['hooks']->dispatch('curl.after_multi_exec', array(&$multihandle));
 
@@ -202,7 +204,8 @@ class Requests_Transport_cURL implements Requests_Transport {
 	 * @param array $options Request options, see {@see Requests::response()} for documentation
 	 * @return resource Subrequest's cURL handle
 	 */
-	public function &get_subrequest_handle($url, $headers, $data, $options) {
+	public function &get_subrequest_handle($url, $headers, $data, $options)
+	{
 		$this->setup_handle($url, $headers, $data, $options);
 
 		if ($options['filename'] !== false) {
@@ -221,14 +224,14 @@ class Requests_Transport_cURL implements Requests_Transport {
 	 * @param string|array $data Data to send either as the POST body, or as parameters in the URL for a GET/HEAD
 	 * @param array $options Request options, see {@see Requests::response()} for documentation
 	 */
-	protected function setup_handle($url, $headers, $data, $options) {
+	protected function setup_handle($url, $headers, $data, $options)
+	{
 		$options['hooks']->dispatch('curl.before_request', array(&$this->fp));
 
 		$headers = Requests::flatten($headers);
 		if (in_array($options['type'], array(Requests::HEAD, Requests::GET, Requests::DELETE)) & !empty($data)) {
 			$url = self::format_get($url, $data);
-		}
-		elseif (!empty($data) && !is_string($data)) {
+		} elseif (!empty($data) && !is_string($data)) {
 			$data = http_build_query($data, null, '&');
 		}
 
@@ -262,29 +265,31 @@ class Requests_Transport_cURL implements Requests_Transport {
 		}
 	}
 
-	public function process_response($response, $options) {
-		if ($options['blocking'] === false) {
-			$fake_headers = '';
-			$options['hooks']->dispatch('curl.after_request', array(&$fake_headers));
-			return false;
-		}
-		if ($options['filename'] !== false) {
-			fclose($this->stream_handle);
-			$this->headers = trim($this->headers);
-		}
-		else {
-			$this->headers .= $response;
+	
+		public function process_response($response, $options)
+		{
+			if ($options['blocking'] === false) {
+				$fake_headers = '';
+				$options['hooks']->dispatch('curl.after_request', array(&$fake_headers));
+				return false;
+			}
+			if ($options['filename'] !== false) {
+				fclose($this->stream_handle);
+				$this->headers = trim($this->headers);
+			} else {
+				$this->headers .= $response;
+			}
+
+			if (curl_errno($this->fp)) {
+				throw new Requests_Exception('cURL error ' . curl_errno($this->fp) . ': ' . curl_error($this->fp), 'curlerror', $this->fp);
+				return;
+			}
+			$this->info = curl_getinfo($this->fp);
+
+			$options['hooks']->dispatch('curl.after_request', array(&$this->headers));
+			return $this->headers;
 		}
 
-		if (curl_errno($this->fp)) {
-			throw new Requests_Exception('cURL error ' . curl_errno($this->fp) . ': ' . curl_error($this->fp), 'curlerror', $this->fp);
-			return;
-		}
-		$this->info = curl_getinfo($this->fp);
-
-		$options['hooks']->dispatch('curl.after_request', array(&$this->headers));
-		return $this->headers;
-	}
 
 	/**
 	 * Collect the headers as they are received
@@ -293,7 +298,8 @@ class Requests_Transport_cURL implements Requests_Transport {
 	 * @param string $headers Header string
 	 * @return integer Length of provided header
 	 */
-	protected function stream_headers($handle, $headers) {
+	protected function stream_headers($handle, $headers)
+	{
 		// Why do we do this? cURL will send both the final response and any
 		// interim responses, such as a 100 Continue. We don't need that.
 		// (We may want to keep this somewhere just in case)
@@ -316,13 +322,13 @@ class Requests_Transport_cURL implements Requests_Transport {
 	 * @param array|object $data Data to build query using, see {@see http://php.net/http_build_query}
 	 * @return string URL with data
 	 */
-	protected static function format_get($url, $data) {
+	protected static function format_get($url, $data)
+	{
 		if (!empty($data)) {
 			$url_parts = parse_url($url);
 			if (empty($url_parts['query'])) {
 				$query = $url_parts['query'] = '';
-			}
-			else {
+			} else {
 				$query = $url_parts['query'];
 			}
 
@@ -331,8 +337,7 @@ class Requests_Transport_cURL implements Requests_Transport {
 
 			if (empty($url_parts['query'])) {
 				$url .= '?' . $query;
-			}
-			else {
+			} else {
 				$url = str_replace($url_parts['query'], $query, $url);
 			}
 		}
@@ -345,7 +350,8 @@ class Requests_Transport_cURL implements Requests_Transport {
 	 * @codeCoverageIgnore
 	 * @return boolean True if the transport is valid, false otherwise.
 	 */
-	public static function test() {
+	public static function test()
+	{
 		return (function_exists('curl_init') && function_exists('curl_exec'));
 	}
 }

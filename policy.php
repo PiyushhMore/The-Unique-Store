@@ -11,7 +11,7 @@ include 'db.php';
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Anant-The Limitless Art</title>
+    <title>The Unique Store</title>
     <!-- google-fonts -->
     <link
         href="//fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap"
@@ -89,7 +89,7 @@ include 'db.php';
  <p>- The product received does not match the item selected during order confirmation</p>
 <p>- The product has a manufacturing defect</p>
 <p>- The product is received in a damaged condition.<br>
-You can reach us at info@anantthelimitlessart.com to initiate returns<br><br>
+You can reach us at theuniquestore@gmail.com to initiate returns<br><br>
 Please note that Exchange or Refund will not be made against the non-returnable item.</p>
 <p>- Discounted products </p>
 <p>- Customized products</p>
@@ -99,11 +99,11 @@ Please note that Exchange or Refund will not be made against the non-returnable 
 <p style="font-size:17px;">
 1. Our return policy is applicable within 48 hours from receipt of the product for the following reasons: Damaged product, Manufacturing defect & incorrect product. </p>
 <p style="font-size:17px;">
-2. If your purchase meets our return criteria as stated above, please email us at info@anantthelimitlessart.com within 48 hours of delivery with the following information:</p>
+2. If your purchase meets our return criteria as stated above, please email us at theuniquestore@gmail.com within 48 hours of delivery with the following information:</p>
 
 <p>1- Order number</p>
 <p>2- Delivery address</p>
-<p>3- Specify the reason for the return, and in case of defective or incorrect product, please send us an image of the item at info@anantthelimitlessart.com <br>
+<p>3- Specify the reason for the return, and in case of defective or incorrect product, please send us an image of the item at theuniquestore@gmail.com <br>
 Unfortunately, we will not be able to consider any emails or images sent after 48 hrs of the delivery.</p>
 <p style="font-size:17px;">3.	Once your return request has been accepted, we will arrange a reverse pick up for the damaged product and issue a replacement with the correct product once the damaged product is picked up by our logistics partner. This entire process should take around 4-5 working days. Please put the Product in its original packaging and seal it well and send it across. Please ensure that the product is unused, not damaged and all the tags, invoice slips are intact at the time of return.</p>
 </p>
@@ -117,14 +117,14 @@ Unfortunately, we will not be able to consider any emails or images sent after 4
 
 <p style="font-size:17px;">Under certain circumstances, if we are unable to provide you with replacement against your ordered product, then we will notify you, and thereafter will process your refund, a credit of the paid amount will reflect in the original mode of payment within 7-10 business days. In case of COD (Cash on Delivery) order, the refund will be made only in the form of credit coupon of the same value.<br>
 If you find that the package has been tampered, please do not accept the item and handover the package back to the delivery person before signing the POD(Proof of Delivery).</p>
-<p style="font-size:17px;">Anantthelimitlessart.com recognizes the importance of maintaining your privacy. We value your privacy and appreciate your trust in us. This Policy describes how we treat user information we collect on http://www.anantthelimitlessart.com and other offline sources. This Privacy Policy applies to current and former visitors to our website and to our online customers. By visiting and/or using our website, you agree to this Privacy Policy.
+<p style="font-size:17px;">The Unique Store recognizes the importance of maintaining your privacy. We value your privacy and appreciate your trust in us. This Policy describes how we treat user information we collect on The Unique Store and other offline sources. This Privacy Policy applies to current and former visitors to our website and to our online customers. By visiting and/or using our website, you agree to this Privacy Policy.
  </p>
  
  <h4><b>WHAT INFORMATION DO WE COLLECT</b></h4>
  
  <p style="font-size:17px;">Contact information. We might collect your name, email, mobile number, address and pin code. <br>
 Payment and billing information. We might collect your billing name, billing address and payment method when you place an order. We NEVER collect your credit card number or credit card expiry date or other details pertaining to your credit card on our website. Credit card information will be obtained and processed by our online payment partner CC Avenue.<br>
-Information you post. We collect information you post in a public space on our website or on a third-party social media site belonging to anantthelimitlessart.com
+Information you post. We collect information you post in a public space on our website or on a third-party social media site belonging to The Unique Store
 
 Demographic information. We may collect demographic information about you and any other information provided by your during the use of our website. We might collect this as a part of a survey also.<br>
 Other information. If you use our website, we may collect information about your IP address and the browser you're using. We might look at what site you came from, duration of time spent on our website, pages accessed or what site you visit when you leave us. We might also collect the type of mobile device you are using, or the version of the operating system your computer or device is running.
@@ -171,7 +171,7 @@ Once you leave our store’s website or are redirected to a third-party website 
 
 <h4><b>EMAIL OPT-OUT</b></h4>
 
-<p style="font-size:17px;">You can opt out of receiving our marketing emails. To stop receiving our promotional emails, please email info@anantthelimitlessart.com. We will still be sending you transactional messages through email and SMS about your purchases. </p>
+<p style="font-size:17px;">You can opt out of receiving our marketing emails. To stop receiving our promotional emails, please email theuniquestore@gmail.com. We will still be sending you transactional messages through email and SMS about your purchases. </p>
 
 <h4><b>CONTACT US</b></h4>
 

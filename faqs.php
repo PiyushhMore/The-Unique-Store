@@ -7,7 +7,7 @@ session_start();
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Anant-The Limitless Art</title>
+  <title>The Unique Store</title>
  
   <link
     href="//fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap"
@@ -56,7 +56,7 @@ session_start();
 			<div class="faq-w3agile">
 			
 				<h4><b>Q.Where are your manufacturing facilities located?</b></h4>
-										<p>ATLA does not own any company owned production unit. We source and get the products manufactured from the local artisans. Getting products manufactured locally, helps the small scale local artisans sustain the authenticity of their craft.</p>
+										<p>TUS does not own any company owned production unit. We source and get the products manufactured from the local artisans. Getting products manufactured locally, helps the small scale local artisans sustain the authenticity of their craft.</p>
 										
 				<h4><b>Q.What if an item is out of stock?</b></h4>
 										<p>We try and maintain to keep all the products in stock. However, there may be times when the product can be out of stock due to some unavoidable circumstances. If you wish to still buy the specific out of stock product, you can provide your email to us, so that we are able to notify you when the product is back in stock.</p>

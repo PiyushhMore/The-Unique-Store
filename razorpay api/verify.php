@@ -1,3 +1,19 @@
+<style>
+    .vef{
+         border-radius:80px;
+         background-color:#edce77;
+    }
+</style>
+
+
+<center>
+<div class="vef">
+<br>
+<center>    <h1 class="text-center" style="font-weight:800;">_________________________</h1></center>    
+<center>    <h1 class="text-center" style="font-weight:800;">The UniQue Store</h1></center>
+<br><br>
+
+
 <?php
 include 'db.php';
 require('config.php');
@@ -48,3 +64,20 @@ else
 }
 
 echo $html;
+?>
+<br><br>
+<center>    <h1 class="text-center" style="font-weight:800;">_________________________</h1></center>    
+
+</div>
+<br><br>
+</center>
+<div class="thank">
+<center>    <h4 class="text-center" style="font-weight:800;">We will Deliver your product as soon as possible.</h4></center>
+
+<center>    <h1 class="text-center" style="font-weight:800;">Thank yOU !!!</h1></center>
+<br>
+</div>
+<div class="hme">
+ <center>   <a href="#" style="color:black;  border-radius:19px; padding:13px; margin:18px; background-color:#edcf7b; text-decoration:none; font-size:20px;">Continue your shopping...</a></center>
+
+</div>

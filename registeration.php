@@ -100,18 +100,18 @@ if( isset($_POST['register'])  ) {
                         <div class="cont-subs">
                             <div class="cont-add">
                                 <h4>Address:</h4>
-                                <p class="contact-text-sub">10, Umiya Shakti Society, Kathe Lane,Above COSMOS Bank, Bankar Chowk, Dwarka ,Nashik- 422011. Maharashtra, India.</p>
+                                <p class="contact-text-sub">Shop no. 103, Meenatai Thakre Market , Savta Nagar ,Nashik- 422008. Maharashtra, India</p>
                             </div>
                             <div class="cont-add">
                                 <h4>Email:</h4>
                                 <a href="info@anantthelimitlessart.com">
-                                    <p class="contact-text-sub">– info@anantthelimitlessart.com</p>
+                                    <p class="contact-text-sub">– theuniquestore@gmail.com.com</p>
                                 </a>
                             </div>
                             <div class="cont-add">
                                 <h4>Phone:</h4>
-                                <a href="mobile:7573894488">
-                                    <p class="contact-text-sub"> +91-7573894488</p>
+                                <a href="mobile:7020839958">
+                                    <p class="contact-text-sub"> +91-7020839958</p>
                                 </a>
                             </div>
                             <div class="social-icons-con">

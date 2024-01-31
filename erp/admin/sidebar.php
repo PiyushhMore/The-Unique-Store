@@ -147,6 +147,15 @@
 			  </p>
 			</a>
 		  </li>
+
+		  <li class="nav-item">
+		    <a href="subscribers.php" class="nav-link">
+			  <i class="nav-icon fas fa-book" style="color:white;"></i>
+			  <p style="color:white; font-size:20px;">
+		Our Subscribers
+			  </p>
+			</a>
+		  </li>
 		  
           <li class="nav-item">
             <a href="logout.php" class="nav-link">
